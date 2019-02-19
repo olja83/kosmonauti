@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    margin: 30px;
+}
+.container__text-heading {
+    margin: 30px 0 20px 0;
+	font-size: 50px;
+	color: $c-primary;
+	text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+
+#container__seznam {
+	max-width: 600px;
+	margin: 30px auto;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 8px;
+ list-style: none;
+
+ li{
+	margin: 0;
+	padding: 8px;
+	text-align: center;
+	background-color: white;
+	border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+    li.vybrana {
+        color: #09203f;
+        background-color: #ffd700;
+    }
+
+}
+.container__img-seznam {
+    position: absolute;
+    top: 210px;
+    z-index: 1;
+
+ ul{
+	margin-right: 12%;
+	// margin-right: auto;
+	 margin-top: 12%;
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 2px;
+}
+ li{
+	
+	padding: 2px;
+	text-align: center;
+	background-color: white;
+	border-radius: 6px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	list-style: none;
+}
+}
+.container__img-girl {
+    position: absolute;
+ 
+ }
+ 
+
+
+
+
+

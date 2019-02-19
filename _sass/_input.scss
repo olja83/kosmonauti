@@ -1,0 +1,25 @@
+.container__text-input {
+	display: flex;
+	max-width: 600px;
+	margin: 20px auto;
+	border-radius: 6px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+	input {
+		flex: 1;
+		padding: 10px 20px;
+		font-size: 28px;
+		line-height: 1;
+		border: 2px solid $c-primary;
+		background-color: white;
+		border-radius: 6px;
+		outline: 0;
+
+		&:focus {
+			box-shadow: 0 0 30px rgba(255, 215, 0, 1);
+		}
+	}
+
+	
+	
+}

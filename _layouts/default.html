@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>{{ page.title }} | Najdi kosmonauta</title>
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+
+
+	<div class="container">
+
+		<div class="container__text">
+			<h1 class="container__text-heading">Najdi kosmonauta</h1>
+			<div class="container__text-input">
+
+				<input onkeyup="zobrazJmena()" id="jmeno" type="text" max-length="20" placeholder="Zadej jméno" autocomplete="off">
+				
+			</div>
+			<ul id="container__seznam"></ul>
+
+		</div>
+
+
+		<div id="container__img">
+			<div class="container__img-seznam"><ul>
+				<li>zajec</li>
+				<li>vlk </li>
+				<li>b</li>
+				<li>b</li>
+				<li>b</li>
+			</ul></div>
+			<img class="container__img-girl"  src="/assets/images/holka.png">
+
+		</div>
+	</div>
+	
+	<script src="/assets/main.js"></script>
+</body>
+
+</html>

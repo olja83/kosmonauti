@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    
+}
+
+img {
+     max-width: 50%;
+     height: auto;
+
+}
+.jmeno, .o-mne,.vek {
+    display: none;
+}
+
+
