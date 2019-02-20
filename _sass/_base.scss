@@ -1,17 +1,18 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    
+	box-sizing: border-box;
+
 }
 
 img {
-     max-width: 50%;
-     height: auto;
+	max-width: 50%;
+	height: auto;
 
 }
-.jmeno, .o-mne,.vek {
-    display: none;
+
+.jmeno,
+.o-mne,
+.vek {
+	display: none;
 }
-
-
